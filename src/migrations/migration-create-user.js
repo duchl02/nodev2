@@ -2,17 +2,12 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('Users', {
+
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
-      },
-      firstName: {
-        type: Sequelize.STRING
-      },
-      lastName: {
-        type: Sequelize.STRING
       },
       email: {
         type: Sequelize.STRING
@@ -20,16 +15,22 @@ module.exports = {
       password: {
         type: Sequelize.STRING
       },
-      adress: {
+      firstName: {
         type: Sequelize.STRING
       },
-      roleId: {
+      lastName: {
+        type: Sequelize.STRING
+      },
+      address: {
         type: Sequelize.STRING
       },
       gender: {
         type: Sequelize.BOOLEAN
       },
-      phoneNumber: {
+      roleId: {
+        type: Sequelize.STRING
+      },
+      phonenumber: {
         type: Sequelize.STRING
       },
       positionId: {
@@ -38,6 +39,7 @@ module.exports = {
       image: {
         type: Sequelize.STRING
       },
+
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
