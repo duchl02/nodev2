@@ -1,5 +1,5 @@
 const { Sequelize } = require("sequelize");
-// test git edit in github abdns
+// test git edit in github asfsadfasdfsdfsd
 // Option 1: Passing a connection URI
 
 // Option 3: Passing parameters separately (other dialects)
