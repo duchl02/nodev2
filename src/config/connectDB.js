@@ -1,6 +1,6 @@
 const { Sequelize } = require("sequelize");
 // test git edit in github asfsadfasdfsdfsd
-// Option 1: Passing a connection URI iduc 
+// Option 1: Passing a connection URI iduc thuan commit
 
 // Option 3: Passing parameters separately (other dialects)
 const sequelize = new Sequelize("duc_sql", "root", "12345678", {
